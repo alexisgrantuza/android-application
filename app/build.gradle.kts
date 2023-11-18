@@ -29,6 +29,10 @@ android {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
     }
+
+    buildFeatures {
+        viewBinding = true
+    }
 }
 
 dependencies {
@@ -42,4 +46,9 @@ dependencies {
 
     implementation("pl.droidsonroids.gif:android-gif-drawable:1.2.28")
     implementation("com.github.Dimezis:BlurView:version-1.6.6")
+    implementation("com.daimajia.easing:library:2.0@aar")
+    implementation("com.daimajia.androidanimations:library:2.3@aar")
+    implementation ("nl.dionsegijn:konfetti-compose:2.0.3")
+    implementation ("nl.dionsegijn:konfetti-xml:2.0.3")
+
 }

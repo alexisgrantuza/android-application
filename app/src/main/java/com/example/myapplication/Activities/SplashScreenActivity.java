@@ -30,10 +30,6 @@ public class SplashScreenActivity extends AppCompatActivity {
                 // on below line we are
                 // starting a new activity.
                 startActivity(i);
-
-                // on the below line we are finishing
-                // our current activity.
-                finish();
             }
         }, 4000);
 
