@@ -4,28 +4,31 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/mainact"
+    android:background="@drawable/background_sets"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="45dp"
+        android:layout_marginTop="32dp"
         android:fontFamily="@font/creepster"
         android:text="Language"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="69sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+
     <LinearLayout
+        android:id="@+id/linearLayout2"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="0dp"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="175dp"
+        android:layout_marginTop="32dp"
         android:layout_marginEnd="30dp"
+        android:layout_marginBottom="32dp"
         android:layout_weight="3"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -35,13 +38,15 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
             android:layout_weight="2"
             android:orientation="horizontal">
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/python"
                 android:layout_width="0dp"
-                android:layout_height="200dp"
+                android:layout_height="match_parent"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:clickable="true"
@@ -58,9 +63,9 @@
                     app:blurOverlayColor="@color/background_color_50">
 
                     <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
                         android:orientation="vertical">
 
                         <ImageView
@@ -68,14 +73,17 @@
                             android:layout_height="80dp"
                             android:layout_margin="20dp"
                             android:src="@drawable/python"
-                            app:tint="@color/black">
+                            app:tint="@color/white">
 
                         </ImageView>
 
                         <TextView
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="10dp"
                             android:fontFamily="@font/lato_black"
+                            android:textColor="@color/white"
                             android:text="Python"
                             android:textSize="22sp">
 
@@ -86,8 +94,9 @@
 
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/java"
                 android:layout_width="0dp"
-                android:layout_height="200dp"
+                android:layout_height="match_parent"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:clickable="true"
@@ -103,9 +112,9 @@
                     android:background="@color/background_color_50">
 
                     <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
                         android:orientation="vertical">
 
                         <ImageView
@@ -113,12 +122,15 @@
                             android:layout_height="80dp"
                             android:layout_margin="20dp"
                             android:src="@drawable/java"
-                            app:tint="@color/black"></ImageView>
+                            app:tint="@color/white" />
 
                         <TextView
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="10dp"
                             android:fontFamily="@font/lato_black"
+                            android:textColor="@color/white"
                             android:text="Java"
                             android:textSize="22sp" />
                     </LinearLayout>
@@ -128,13 +140,14 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
             android:layout_weight="2"
             android:orientation="horizontal">
 
             <androidx.cardview.widget.CardView
                 android:layout_width="0dp"
-                android:layout_height="200dp"
+                android:layout_height="match_parent"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:clickable="true"
@@ -147,12 +160,13 @@
                 <eightbitlab.com.blurview.BlurView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="@color/background_color_50">
+                    android:background="@color/background_color_50"
+                    app:blurOverlayColor="@color/background_color_50">
 
                     <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
                         android:orientation="vertical">
 
                         <ImageView
@@ -160,23 +174,29 @@
                             android:layout_height="80dp"
                             android:layout_margin="20dp"
                             android:src="@drawable/lettercname"
-                            app:tint="@color/black">
+                            app:tint="@color/white">
 
                         </ImageView>
 
                         <TextView
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="10dp"
                             android:fontFamily="@font/lato_black"
+                            android:textColor="@color/white"
                             android:text="C"
-                            android:textSize="22sp" />
+                            android:textSize="22sp">
+
+                        </TextView>
                     </LinearLayout>
                 </eightbitlab.com.blurview.BlurView>
             </androidx.cardview.widget.CardView>
 
+
             <androidx.cardview.widget.CardView
                 android:layout_width="0dp"
-                android:layout_height="200dp"
+                android:layout_height="match_parent"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:clickable="true"
@@ -192,9 +212,9 @@
                     android:background="@color/background_color_50">
 
                     <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
                         android:orientation="vertical">
 
                         <ImageView
@@ -202,14 +222,15 @@
                             android:layout_height="80dp"
                             android:layout_margin="20dp"
                             android:src="@drawable/cpp1"
-                            app:tint="@color/black">
-
-                        </ImageView>
+                            app:tint="@color/white" />
 
                         <TextView
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="10dp"
                             android:fontFamily="@font/lato_black"
+                            android:textColor="@color/white"
                             android:text="C++"
                             android:textSize="22sp" />
                     </LinearLayout>
@@ -219,13 +240,14 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
             android:layout_weight="2"
             android:orientation="horizontal">
 
             <androidx.cardview.widget.CardView
                 android:layout_width="0dp"
-                android:layout_height="200dp"
+                android:layout_height="match_parent"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:clickable="true"
@@ -238,12 +260,13 @@
                 <eightbitlab.com.blurview.BlurView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="@color/background_color_50">
+                    android:background="@color/background_color_50"
+                    app:blurOverlayColor="@color/background_color_50">
 
                     <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
                         android:orientation="vertical">
 
                         <ImageView
@@ -251,23 +274,29 @@
                             android:layout_height="80dp"
                             android:layout_margin="20dp"
                             android:src="@drawable/csharp"
-                            app:tint="@color/black">
+                            app:tint="@color/white">
 
                         </ImageView>
 
                         <TextView
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="10dp"
                             android:fontFamily="@font/lato_black"
+                            android:textColor="@color/white"
                             android:text="C-sharp"
-                            android:textSize="22sp" />
+                            android:textSize="22sp">
+
+                        </TextView>
                     </LinearLayout>
                 </eightbitlab.com.blurview.BlurView>
             </androidx.cardview.widget.CardView>
 
+
             <androidx.cardview.widget.CardView
                 android:layout_width="0dp"
-                android:layout_height="200dp"
+                android:layout_height="match_parent"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:clickable="true"
@@ -283,9 +312,9 @@
                     android:background="@color/background_color_50">
 
                     <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
                         android:orientation="vertical">
 
                         <ImageView
@@ -293,14 +322,15 @@
                             android:layout_height="80dp"
                             android:layout_margin="20dp"
                             android:src="@drawable/js1"
-                            app:tint="@color/black">
-
-                        </ImageView>
+                            app:tint="@color/white" />
 
                         <TextView
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="10dp"
                             android:fontFamily="@font/lato_black"
+                            android:textColor="@color/white"
                             android:text="JavaScript"
                             android:textSize="22sp" />
                     </LinearLayout>
