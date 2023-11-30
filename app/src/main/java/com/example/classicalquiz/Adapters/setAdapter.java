@@ -1,4 +1,4 @@
-package com.example.myapplication.Adapters;
+package com.example.classicalquiz.Adapters;
 
 import android.content.Context;
 import android.content.Intent;
@@ -9,11 +9,10 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.myapplication.Activities.QuizActivity;
-import com.example.myapplication.Models.QuestionModel;
-import com.example.myapplication.Models.SetModel;
-import com.example.myapplication.R;
-import com.example.myapplication.databinding.ItemSetBinding;
+import com.example.classicalquiz.Activities.QuizActivity;
+import com.example.classicalquiz.Models.SetModel;
+import com.example.classicalquiz.R;
+import com.example.classicalquiz.databinding.ItemSetBinding;
 
 import java.util.ArrayList;
 

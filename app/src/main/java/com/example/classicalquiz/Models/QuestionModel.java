@@ -1,4 +1,4 @@
-package com.example.myapplication.Models;
+package com.example.classicalquiz.Models;
 
 // Model class representing a quiz question
 public class QuestionModel {

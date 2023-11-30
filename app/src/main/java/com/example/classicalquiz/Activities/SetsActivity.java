@@ -1,8 +1,5 @@
-package com.example.myapplication.Activities;
+package com.example.classicalquiz.Activities;
 
-import static com.example.myapplication.R.drawable.pipo;
-
-import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -11,16 +8,14 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
-import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.LinearLayoutManager;
 
-import com.example.myapplication.Adapters.setAdapter;
-import com.example.myapplication.MainActivity;
-import com.example.myapplication.Models.SetModel;
-import com.example.myapplication.R;
-import com.example.myapplication.databinding.ActivitySetsBinding;
+import com.example.classicalquiz.Adapters.setAdapter;
+import com.example.classicalquiz.MainActivity;
+import com.example.classicalquiz.Models.SetModel;
+import com.example.classicalquiz.R;
+import com.example.classicalquiz.databinding.ActivitySetsBinding;
 
 import java.util.ArrayList;
 

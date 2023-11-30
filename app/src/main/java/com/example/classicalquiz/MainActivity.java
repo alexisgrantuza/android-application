@@ -1,22 +1,13 @@
-package com.example.myapplication;
+package com.example.classicalquiz;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.View;
-import android.view.ViewGroup;
-import android.widget.TextView;
 
-import com.example.myapplication.Activities.SetsActivity;
-
-import java.util.Objects;
-
-import eightbitlab.com.blurview.BlurView;
-import eightbitlab.com.blurview.RenderScriptBlur;
+import com.example.classicalquiz.Activities.SetsActivity;
 
 public class MainActivity extends AppCompatActivity {
 

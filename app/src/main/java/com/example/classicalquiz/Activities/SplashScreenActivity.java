@@ -1,14 +1,13 @@
-package com.example.myapplication.Activities;
+package com.example.classicalquiz.Activities;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
-import android.view.WindowManager;
+
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.myapplication.MainActivity;
-import com.example.myapplication.R;
+import com.example.classicalquiz.MainActivity;
+import com.example.classicalquiz.R;
 
 public class SplashScreenActivity extends AppCompatActivity {
 

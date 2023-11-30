@@ -1,4 +1,4 @@
-package com.example.myapplication.Activities;
+package com.example.classicalquiz.Activities;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -16,10 +16,10 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.myapplication.MainActivity;
-import com.example.myapplication.Models.QuestionModel;
-import com.example.myapplication.R;
-import com.example.myapplication.databinding.ActivityQuizBinding;
+import com.example.classicalquiz.MainActivity;
+import com.example.classicalquiz.Models.QuestionModel;
+import com.example.classicalquiz.R;
+import com.example.classicalquiz.databinding.ActivityQuizBinding;
 
 import java.util.ArrayList;
 

@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.classicalquiz;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package com.example.myapplication.Activities;
+package com.example.classicalquiz.Activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
@@ -11,9 +11,9 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.myapplication.MainActivity;
-import com.example.myapplication.R;
-import com.example.myapplication.databinding.ActivityFinalScoreBinding;
+import com.example.classicalquiz.MainActivity;
+import com.example.classicalquiz.R;
+import com.example.classicalquiz.databinding.ActivityFinalScoreBinding;
 
 import java.util.Arrays;
 import java.util.concurrent.TimeUnit;
@@ -26,7 +26,6 @@ import nl.dionsegijn.konfetti.core.emitter.Emitter;
 import nl.dionsegijn.konfetti.core.emitter.EmitterConfig;
 import nl.dionsegijn.konfetti.core.models.Shape;
 import nl.dionsegijn.konfetti.xml.KonfettiView;
-import pl.droidsonroids.gif.GifImageView;
 
 public class FinalScore extends AppCompatActivity {
 
